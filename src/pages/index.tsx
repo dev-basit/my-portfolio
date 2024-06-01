@@ -10,6 +10,7 @@ import Experience from "@/components/experience";
 import Projects from "@/components/projecs";
 import Footer from "@/components/footer";
 import Testimonial from "@/components/testimonial";
+import { config } from "@/config";
 
 export default function Home() {
   useEffect(() => {
@@ -19,7 +20,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Abdul Basit</title>
+        <title>{config.name} - Snr Full Stack Developer</title>
         <meta name="description" content="Software Developer - Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />

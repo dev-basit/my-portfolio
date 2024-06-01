@@ -44,6 +44,7 @@ function Featured() {
     <FeaturedStyles.FeaturedContainer data-aos="zoom-in-up" id="featured">
       <div style={{ display: "inline-block" }}>
         <FeaturedStyles.FeaturedHeading>
+          {"I am "}
           <span id="typewriter"></span>
           <span id="cursor">|</span>
         </FeaturedStyles.FeaturedHeading>
