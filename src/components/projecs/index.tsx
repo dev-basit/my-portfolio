@@ -6,7 +6,7 @@ import { config, projectCategoryfonts } from "@/config";
 
 function Projects() {
   return (
-    <ProjectsStyles.ProjectsContainer>
+    <ProjectsStyles.ProjectsContainer data-aos="zoom-in-up" id="projects">
       <ProjectsStyles.ProjectsHeadingContainer>
         <CommonStyles.ContainerHeading>PROJECTS</CommonStyles.ContainerHeading>
         <CommonStyles.ContainerHeadingSM>click to explore</CommonStyles.ContainerHeadingSM>
@@ -14,7 +14,7 @@ function Projects() {
 
       <ProjectsStyles.ProjectsContentContainer>
         {config.projects.map((item, index) => (
-          <ProjectsStyles.Project key={index}>
+          <ProjectsStyles.Project key={index} data-aos="fade-left">
             <Image
               src={item.image}
               width={600}
