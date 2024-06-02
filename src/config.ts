@@ -124,13 +124,13 @@ export const config = {
 };
 
 export const fonts: IFonts = {
-  lg: "1.5rem",
-  md: "1rem",
-  sm: ".8rem",
+  lg: "1.7rem",
+  md: "1.4rem",
+  sm: "1.4rem",
 };
 
 export const projectCategoryfonts: IFonts = {
-  lg: "1.5rem",
-  md: "1rem",
-  sm: ".8rem",
+  lg: "1.7rem",
+  md: "1.4rem",
+  sm: "1.4rem",
 };
