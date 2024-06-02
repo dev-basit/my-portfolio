@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Snr Developer - 3+YOE</title>
+        <title>Snr Developer - 3+ YOE</title>
         <meta name="description" content="Software Developer - Portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
