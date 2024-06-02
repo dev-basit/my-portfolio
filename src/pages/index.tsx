@@ -10,7 +10,6 @@ import Experience from "@/components/experience";
 import Projects from "@/components/projecs";
 import Footer from "@/components/footer";
 import Testimonial from "@/components/testimonial";
-import { config } from "@/config";
 
 export default function Home() {
   useEffect(() => {
@@ -30,8 +29,8 @@ export default function Home() {
         <Featured />
         <About />
         <Experience />
-        {/* <Projects /> */}
-        <Testimonial />
+        <Projects />
+        {/* <Testimonial /> */}
         <Footer />
       </main>
     </>
