@@ -4,6 +4,11 @@ import { NavbarStyles } from "@/components/navbar/styles";
 import { config } from "@/config";
 
 function Navbar() {
+  const handleScroll = (id: string) => {
+    const el = document.getElementById(id)?.getBoundingClientRect();
+    if (el) window.scrollTo({ top: el.top - el.x, behavior: "smooth" });
+  };
+
   return (
     <NavbarStyles.NavbarContainer>
       <NavbarStyles.NavbarLogo>
@@ -11,17 +16,17 @@ function Navbar() {
       </NavbarStyles.NavbarLogo>
       <NavbarStyles.NavbarListContainer>
         <NavbarStyles.NavbarList>
-          <NavbarStyles.NavbarListItem>
-            <CommonStyles.Anchor href="#about">about</CommonStyles.Anchor>
+          <NavbarStyles.NavbarListItem onClick={() => handleScroll("about")}>
+            <CommonStyles.Anchor href="#">about</CommonStyles.Anchor>
           </NavbarStyles.NavbarListItem>
-          <NavbarStyles.NavbarListItem>
-            <CommonStyles.Anchor href="#experience">experience</CommonStyles.Anchor>
+          <NavbarStyles.NavbarListItem onClick={() => handleScroll("experience")}>
+            <CommonStyles.Anchor href="#">experience</CommonStyles.Anchor>
           </NavbarStyles.NavbarListItem>
-          <NavbarStyles.NavbarListItem>
-            <CommonStyles.Anchor href="#projects">projects</CommonStyles.Anchor>
+          <NavbarStyles.NavbarListItem onClick={() => handleScroll("projects")}>
+            <CommonStyles.Anchor href="#">projects</CommonStyles.Anchor>
           </NavbarStyles.NavbarListItem>
-          {/* <NavbarStyles.NavbarListItem>
-            <CommonStyles.Anchor href="#testimonial">testimonial</CommonStyles.Anchor>
+          {/* <NavbarStyles.NavbarListItem onClick={() => handleScroll("testimonial")}>
+            <CommonStyles.Anchor href="#">testimonial</CommonStyles.Anchor>
           </NavbarStyles.NavbarListItem> */}
         </NavbarStyles.NavbarList>
         <NavbarStyles.NavbarChatButton>
