@@ -8,9 +8,9 @@ export const config = {
   descriptionTagLine: "I love to solve real-world problems through technology.",
 
   featurePhrases: [
+    "Snr Full Stack Developer",
     "Snr Frontend Developer",
     "Snr Backend Developer",
-    "Snr Full Stack Developer",
     "Snr ReactJs Developer",
     "Snr React Native Developer",
   ],
