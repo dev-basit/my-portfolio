@@ -18,8 +18,11 @@ function Navbar() {
             <CommonStyles.Anchor href="#experience">experience</CommonStyles.Anchor>
           </NavbarStyles.NavbarListItem>
           <NavbarStyles.NavbarListItem>
-            <CommonStyles.Anchor href="#testimonial">testimonial</CommonStyles.Anchor>
+            <CommonStyles.Anchor href="#projects">projects</CommonStyles.Anchor>
           </NavbarStyles.NavbarListItem>
+          {/* <NavbarStyles.NavbarListItem>
+            <CommonStyles.Anchor href="#testimonial">testimonial</CommonStyles.Anchor>
+          </NavbarStyles.NavbarListItem> */}
         </NavbarStyles.NavbarList>
         <NavbarStyles.NavbarChatButton>
           <CommonStyles.Anchor href="#chat">let&apos;s chat</CommonStyles.Anchor>
