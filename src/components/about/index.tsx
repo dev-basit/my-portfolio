@@ -11,12 +11,13 @@ function About() {
       <AboutStyles.AbouContentContainer data-aos="fade-up">
         <AboutStyles.AboutLeftContainer>
           <Image
-            src="/assets/about.jpg"
+            src="/assets/basit-office.png"
             width={600}
-            height={500}
+            height={450}
             alt="about me"
-            layout="responsive"
-            style={{ borderRadius: "1rem" }}
+            // objectFit="contain"
+            // layout="responsive"
+            style={{ borderRadius: "1rem", objectFit: "cover", objectPosition: "top" }}
           />
         </AboutStyles.AboutLeftContainer>
         <AboutStyles.AboutRightContainer>

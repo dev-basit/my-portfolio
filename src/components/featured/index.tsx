@@ -49,7 +49,7 @@ function Featured() {
           <span id="cursor">|</span>
         </FeaturedStyles.FeaturedHeading>
       </div>
-      <FeaturedStyles.FeaturedNameTagline>{config.nameTagLine}</FeaturedStyles.FeaturedNameTagline>
+      {/* <FeaturedStyles.FeaturedNameTagline>{config.nameTagLine}</FeaturedStyles.FeaturedNameTagline> */}
       <FeaturedStyles.FeaturedRuler></FeaturedStyles.FeaturedRuler>
       <FeaturedStyles.FeaturedDesc>{config.descriptionTagLine} </FeaturedStyles.FeaturedDesc>
     </FeaturedStyles.FeaturedContainer>

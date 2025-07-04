@@ -10,6 +10,7 @@ import Experience from "@/components/experience";
 import Projects from "@/components/projecs";
 import Footer from "@/components/footer";
 import Testimonial from "@/components/testimonial";
+import Sliderr from "@/components/slider/slider";
 
 export default function Home() {
   useEffect(() => {
@@ -28,6 +29,7 @@ export default function Home() {
         <Navbar />
         <Featured />
         <About />
+        <Sliderr />
         <Experience />
         <Projects />
         {/* <Testimonial /> */}

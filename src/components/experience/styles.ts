@@ -21,6 +21,8 @@ const ExperienceContentContainer = styled.section`
 
 const ExperienceStepperContainer = styled.section`
   display: flex;
+  max-width: 80%;
+  margin: 0 auto;
 `;
 
 const ExperienceSteps = styled.section`
@@ -94,7 +96,7 @@ const ExperienceJobPosition = styled.h2`
   font-size: 2rem;
   color: black;
   align-items: center;
-  margin-top: 0.3rem;
+  margin-top: 0.9rem;
 
   @media screen and (max-width: 768px) {
     font-size: 1.5rem;
