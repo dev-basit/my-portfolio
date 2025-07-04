@@ -1,31 +1,27 @@
 import { IFonts } from "./interfaces";
 
-const name = "Basit";
+const name = "Abdul Basit";
 
 export const config = {
   name: name,
   nameTagLine: `My name is ${name}.`,
-  descriptionTagLine: "I love to solve real-world problems through technology.",
+  // descriptionTagLine: "I love to solve real-world problems through technology.",
+  descriptionTagLine:
+    "I am a Full Stack Developer with 3+ years of experience designing, developing, and deploying scalable web applications end to end. I am skilled in entire software development lifecycle—from gathering requirements, design, building, and deployment with a proven track record of delivering high-quality, maintainable, and efficient code. I am interested to work in large scale, production grade, micro services, and event based based applications and contribute to them.",
 
-  featurePhrases: [
-    "Snr Full Stack Developer",
-    "Snr Frontend Developer",
-    "Snr Backend Developer",
-    "Snr ReactJs Developer",
-    "Snr React Native Developer",
-  ],
+  featurePhrases: ["Software Engineer", "Full Stack Developer"],
   aboutText:
-    "I am currently a second year undergraduate studying Information Systems (Business Analytics) and Finance at Singapore Management University. I am passionate about visual and information design, and enjoy working with design/analytics tools such as Figma, Canva, PowerPoint and Tableau to create compelling visuals that communicate amazing ideas.",
+    "I am a Full Stack Developer with 3+ years of experience designing, developing, and deploying scalable web applications end to end. I am skilled in entire software development lifecycle—from gathering requirements, design, building, and deployment with a proven track record of delivering high-quality, maintainable, and efficient code.",
   aboutText2:
-    "I am driven by my passion towards technology, innovation, good design, a hunger for continuous learning, and above all, my Yakun Kopi Bing 大杯 (Large Iced Nanyang-style Coffee).",
+    "I am interested to work in large scale, production grade, micro services, and event based based applications and contribute to them.",
 
   experience: [
     {
-      compantName: "DayDayUp",
-      jobPosition: "Innovation Programme Consultant, Beijing China |",
-      jobDuration: "May 2024 - Present",
+      compantName: "TechShip",
+      jobPosition: "Software Engineer - Full Stack Developer",
+      jobDuration: "May 2023 - Present",
       jobDescription:
-        "Evaluating market fit of Singaporean start-ups entering the Chinese market and vice-versa for Chinese start-ups, identifying key strategies for successful market penetration.",
+        "Redesigned and implemented responsive UIs using React.js and Next.js, ensuring seamless performance across all major browsers, and improving user retention and engagement by 25%. Optimized front-end performance by refactoring code, minimizing asset size, and leveraging lazy loading techniques, resulting in a 30% faster page load time and significantly enhancing user satisfaction. Built and maintained CI/CD pipelines with tools like GitHub Actions, reducing manual deployment by 60%. Architected and developed scalable RESTful APIs using Node.js and Express, cutting average API response time by 30% via cache layer and supporting up to 100K+ concurrent users with high reliability. Designed and implemented database schemas using Prisma and Mongoose, improving data consistency and reducing query latency by 20%. Integrated third-party APIs and npm packages, including map services, authentication, and utilities, cutting development time by 25% and accelerating feature delivery. Implemented secure Stripe payment gateways, enabling recurring billing and one-time purchases. Led peer code reviews and collaborated cross-functionally with backend and design teams to deliver new features, reducing post-release bugs by 30% and improving team productivity",
     },
     {
       compantName: "SMU Product Management Club",
@@ -33,20 +29,6 @@ export const config = {
       jobDuration: "Dec 2023 - April 2024",
       jobDescription:
         "I designed a product and its product strategy for GrabFood based on identified pain points in mobile food ordering and market research to determine market sizing, position and strategy.",
-    },
-    {
-      compantName: "Asia Private Equity Club SMU",
-      jobPosition: "Analyst |",
-      jobDuration: "Sep 2022 - May 2023",
-      jobDescription:
-        "I evaluated companies by developing financial models and applying several valuation methodologies such as precedent transactions and peer comps for Venture Capital cases and DCF analysis for Private Equity cases.",
-    },
-    {
-      compantName: "Virginia Quek Lalita & Partners",
-      jobPosition: "Legal Intern |",
-      jobDuration: "Feb 2022 - Apr 2022",
-      jobDescription:
-        "I assisted partners and associates in representing clients in court during trial, and developed polished legal documents, including affidavits, statements of claim and writs to support litigation processes and court proceedings.",
     },
   ],
 
