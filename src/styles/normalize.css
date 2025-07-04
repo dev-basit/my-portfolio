@@ -62,8 +62,9 @@ hr {
    */
 
 pre {
-  font-family: monospace, monospace; /* 1 */
+  font-family: var(--font-family); /* 1 */
   font-size: 1em; /* 2 */
+  text-wrap: unset;
 }
 
 /* Text-level semantics
