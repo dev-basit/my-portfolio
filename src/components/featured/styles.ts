@@ -7,7 +7,7 @@ const FeaturedContainer = styled.div`
   width: 80%;
   margin: auto;
   padding: 0 3rem;
-  padding-bottom: 10rem;
+  padding-top: 5rem;
   height: calc(100vh - var(--navbar-height));
 
   @media screen and (max-width: 576px) {
