@@ -15,8 +15,6 @@ function About() {
             width={600}
             height={450}
             alt="about me"
-            // objectFit="contain"
-            // layout="responsive"
             style={{ borderRadius: "1rem", objectFit: "cover", objectPosition: "top" }}
           />
         </AboutStyles.AboutLeftContainer>
